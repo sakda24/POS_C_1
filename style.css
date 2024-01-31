@@ -1,0 +1,73 @@
+/* สไตล์ของหน้าเว็บ */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 1em;
+}
+
+/* สไตล์ของ Navbar */
+.navbar {
+    width: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: #000;
+}
+
+section {
+    padding: 35px;
+    color: #343a40;
+}
+
+h2 {
+    color: #007bff;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#about {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block;
+}
